@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Spotify Footer Spacing",
+    "version": "1.0",
+    "description": "Moves the play bar up higher for when I'm looking at spotify with vertical monitors.",
+    "content_scripts": [ {
+        "matches": ["https://open.spotify.com/*"],
+        "js": ["content.js"]
+    } ]
+}
